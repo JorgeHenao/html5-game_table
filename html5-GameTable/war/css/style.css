@@ -1,0 +1,33 @@
+/* 
+    Document   : style
+    Created on : 23/05/2013, 04:39:23 AM
+    Author     : Usuario
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+
+#containergame{
+   width: 540px;
+   height: 280px;
+   margin: 0px auto;
+   border: 1px solid red;  
+}
+
+#containercanvas{
+    width: 540px;
+    height: 280px;
+    margin: 0px auto;
+    border:black 1px solid;    
+}
+
+.gamelayer {
+    width: 540px;
+    height: 280px;
+    position: absolute;
+    display: none; 
+}
